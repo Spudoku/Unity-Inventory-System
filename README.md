@@ -19,10 +19,10 @@ This class is just used for the ItemGameObject and Inventory Monobehaviors.
 1. Attach to gameobject
 2. if items are to be used by player input, set "isTarget" to true
 
-##Inventory Slot (Monobehavior)
+## Inventory Slot (Monobehavior)
 1. use on prefabs for the HUDManager class. No other setup is needed
 
-##HUDManager
+## HUDManager
 1. create a Panel UI object with a Horizontal Alignment Group Component. Attatch a HUDManager component to it.
 2. Create a prefab with the following components: Image, InventorySlot, another Image in child object (for background), and finally another child object with a TMPPro text object.
 3. In the prefab, assign the sprite image, count text and placeholder fields for the InventorySlot component
